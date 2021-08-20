@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello Bulma!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    </head>
+    <section class="hero is-dark is-bold">
+        <div class="hero-body">
+            <h2 class="title">
+                Random Beers App
+            </h2>
+            <h2 class="subtitle">
+                What will it be today?
+            </h2>
+            <br>
+            <div class="container">
+                <button style="padding-left: 10px"; class="button is-light is-inverted" onclick="window.location.reload()">Get Suggestions</button>
+            </div>
+        </div>
+        
+        
+    </section>
+
+  
+
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Hello, my name is {{beers.name}}
+      </h1>
+      <p class="subtitle">
+        <h3>This is my first brew date: {{beers.first_brewed}}</h3>
+        <h3>And here's a little description of me:<br>'{{beers.description}}</h3>
+        <br>
+        <h3><b>These are the foods you could pair me with:</b></h3>
+        <h3>{{beers.foodpairing}}</h3>      </p>
+      
+    </div>
+  </section>
+  <section>
+    <figure class="image is-256x256">
+        <img src="https://th.bing.com/th/id/R.661730136aa91199eedee3a93bbe5407?rik=B%2bB%2boohHuLSnZg&riu=http%3a%2f%2fwallpapersdsc.net%2fwp-content%2fuploads%2f2016%2f09%2fBeer-Pictures.jpg&ehk=kiTE4JXGl0jGYckJBAZDHBZExp7RmCbPw4LzUkhjnxM%3d&risl=&pid=ImgRaw&r=0">
+      </figure>
+  </section>
+  </body>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+        <section class="hero is-dark">
+            <div class="hero-body">
+              <p class="subtitle">
+                <strong>Random Beers App</strong> by <a href="https://jgthms.com">Efe Komoni</a>. 
+                    The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><br> komo2021</a>.
+              </p>
+            </div>
+          </section>
+     
+    </div>
+  </footer>
+</html>
